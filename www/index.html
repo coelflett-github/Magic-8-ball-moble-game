@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title> App Template</title>
+        <!-- <link rel="stylesheet" href="css/kendo.mobile.all.css"> -->
+       <!-- <link rel="stylesheet" href="css/kendo.mobile.common.min.css"/> -->
+        <!-- <link rel="stylesheet" href="css/custom/all.css" /> -->
+        <link rel="stylesheet" href="css/kendo.mobile.flat.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+ <!-- main content will be inserted here -->  
+        
+<div data-role="view" data-layout="default" id="tabstrip-home">
+ 
+    <img class="desk" src="imgs/desk_ball.svg" >
+    <svg  class="asktitle" id="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 503.02 72.54">
+    <defs>
+    <style>
+    @font-face {
+        font-family: TheGoldsmithVintage;
+        src: url('font/The_Goldsmith_Vintage.ttf');
+    }
+    .cls-1{font-size:71.61px;fill:#352012;font-family: TheGoldsmithVintage;}
+    .cls-2{font-family: TheGoldsmithVintage; letter-spacing:-2px;}
+    .cls-3{letter-spacing:-6px;}
+    .cls-4{letter-spacing:-3px;}
+    .cls-5{letter-spacing:1px;}
+    .cls-6{letter-spacing:3px;}
+        </style>
+    </defs><title>ask_your_question</title><text class="cls-1" transform="translate(0 60.86)"><tspan class="cls-2">ASK YOUR QUESTION</tspan></text>
+    </svg>
+    <input class="textbox" type="text" name="question" placeholder="____________________________">    
+    <a href="#answer_page" data-transition="slide:left">
+        <button id="submit"> 
+            <img class="button" src="imgs/button.png">
+        </button> 
+    </a>
+       
+</div>  
+    
+        
+        
+<div data-role="view" data-layout="default"  id="answer_page"  data-transition="overlay:down">
+    
+
+    <img class="answersize" id="myImage"/>
+    <h1 class="bubble" id="msg">error does not compute !!!</h1>
+      
+    
+    <a href="#tabstrip-home" data-transition="slide:left">
+        <img id="clear" class="back" src="imgs/back.png">
+     </a> 
+
+</div>
+  
+
+ <!-- main content will be inserted here -->        
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/kendo.ui.core.min.js"></script>
+        <script>
+            var app = new kendo.mobile.Application(document.body, {skin:"flat"});
+            
+        </script>
+        <script type="text/javascript" src="js/scripts.js" ></script>
+        <script type="text/javascript" src="cordova.js"></script>
+   
+    </body>
+</html>
+

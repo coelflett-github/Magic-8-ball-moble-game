@@ -1,0 +1,129 @@
+@font-face {
+    font-family: TheGoldsmithVintage;
+    src: url('../font/The_Goldsmith_Vintage.ttf');
+}
+
+
+#tabstrip-home .km-content{
+    background: url('../imgs/question_1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    }
+
+#answer_page .km-content{
+    background: url('../imgs/question_answer.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #84502c;
+    }
+
+#myImage .km-content{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.desk{
+    margin: 0 auto;
+    position: fixed;
+    bottom:0px;
+}
+
+.asktitle{
+    font-family: TheGoldsmithVintage;
+    position: fixed;
+    margin: auto;
+    width: 70%;
+    bottom:25vw;
+    left: 15%; 
+}
+
+.textbox{
+    font-family: TheGoldsmithVintage;
+    font-size: 21px;
+    background-image: url(../imgs/text_box.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    bottom:7vw;
+    left: 60%;
+    margin-left: -175px;
+    padding: 0 20px;
+    background-color: inherit;
+    border: none;
+    color: #160d07;
+}
+
+.button {
+    position: absolute; 
+    bottom:5%;
+    right: 3%;
+    height: 90px;
+    width: 50px;
+}
+
+.back{
+    position: absolute;
+    bottom:5%;
+    left: 4%;
+    height: 25vw;
+    width: 30vw;
+}
+
+.answersize{
+    position: fixed;
+    width: 100%;
+}
+
+.bubble{
+    width: 300px;
+    height: 150px;
+    left: 5%;
+    margin-left: -175px;
+    background-position: center center;
+    font-family: The Goldsmith Vintage;
+    font-size:30px ;
+    border: none;
+    padding: 29px 15px 0px  19px;
+    position: fixed;
+    background-image: url(../imgs/textbubble.svg);
+    background-position:center;
+    background-repeat: no-repeat; 
+
+    border: none;
+}
+
+
+
+
+button {
+    background-color: inherit;
+    border: none;
+}
+
+.bottomthing {
+/*
+    position: absolute;
+    top: 110%;
+    width: 100%; 
+*/
+}
+
+/*
+
+.enter{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 14%;
+    height: 0%;
+    width: 0%;
+    padding: 0;
+    background-color:none;
+}*/
